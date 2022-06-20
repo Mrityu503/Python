@@ -6,7 +6,6 @@ text = input("Type your message:\n").lower()
 shift = int(input("Type the shift number:\n"))
 
 def caesar(msg,shift_value,choice):
-  
   convert = []
   for i in range(len(msg)):
     index = alphabet.index(msg[i])
