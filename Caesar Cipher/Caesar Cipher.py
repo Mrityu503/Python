@@ -24,4 +24,9 @@ def encrypt(plain_text, shift_amount):
     plain_text += new_letter
   print(f"The decoded text is {plain_text}")
  
-encrypt(plain_text=text, shift_amount=shift)
+if direction == "encode":
+  encrypt(plain_text=text, shift_amount=shift)
+elif direction == "decode":
+  decode(cipher_text=text, shift_amount=shift)
+else:
+  print("Wrong choice! Exiting Cipher!")
