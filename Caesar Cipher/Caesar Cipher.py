@@ -17,7 +17,7 @@ shift = int(input("Type the shift number:\n"))
 #     new_letter = alphabet[new_position]
 #     end_text += new_letter
 #   print(f"The {cipher_direction}d text is {end_text}")
-
+#caesar(start_text=text, shift_amount=shift, cipher_direction=direction)
 
 def encrypt(plain_text, shift_amount):
   cipher_text = ""
